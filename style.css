@@ -1,0 +1,44 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+td:first-of-type{
+    text-align: left;
+}
+
+th:first-of-type{
+    text-align: left;
+}
+
+th:last-of-type{
+    text-align: right;
+}
+
+td:last-of-type{
+    text-align: right;
+}
+
+tr{
+    background-color: red;
+}
+
+
+tr:nth-child(odd){
+    background-color: yellow;
+}
+
+th{
+    background-color: blanchedalmond;
+}
+
+
+h1{
+    text-align: center;
+}
