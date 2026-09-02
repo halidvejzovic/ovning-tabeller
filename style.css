@@ -1,46 +1,47 @@
 table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 1px solid black; /*lägger en ram runt*/
+    border-collapse: collapse; /*tarbort dubbelramar*/
 }
 
 table{
-    width: 100%;
-    table-layout: fixed;
-    text-align: center;
+    width: 100%; /*bredd 100% dvs breden strcker sig över hela sida*/
+    table-layout: fixed; /* breden på tr är  lika breda*/
+    text-align: center; /* texten i table centreras*/
 }
 
-td:first-of-type{
-    text-align: left;
+td:first-of-type{  /*första typen i td elementet*/
+    text-align: left; /* justeras vänster*/
 }
 
-th:first-of-type{
-    text-align: left;
+th:first-of-type{  /*första typen i th elementet*/
+    text-align: left;  /* justeras vänster*/
 }
 
-th:last-of-type{
-    text-align: right;
+th:last-of-type{  /*sista typen i th elementet*/
+    text-align: right; /* justeras höger*/
 }
 
-td:last-of-type{
-    text-align: right;
+td:last-of-type{  /*sista typen i td elementet*/
+    text-align: right; /* justeras höger*/
 }
 
 tr{
-    background-color: red;
+    background-color: red;  /*backrunds färg är röd för alla tr*/
 }
 
 
-tr:nth-child(odd){
+tr:nth-child(odd){   /* i alla tr så är varanan kolum färg gul*/
     background-color: yellow;
 }
 
 th{
-    background-color: blanchedalmond;
+    background-color: blanchedalmond; /*backrunds färg för alla th*/
+    
 }
 
 caption{
-    caption-side: bottom;
-    padding-top: 10px;
-    font-size: 1.3em;
+    caption-side: bottom; /*lägger cation value på botten*/
+    padding-top: 10px;    /* avstånd uppifrån 10px*/
+    font-size: 1.3em;      /*storlek på text är 1.3 gånger större av den ursprunliga storleken*/
 }
 
